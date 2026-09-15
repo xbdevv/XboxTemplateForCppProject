@@ -1,4 +1,4 @@
-##### Work based on https://github.com/xboxoneresearch/XboxUnattend C/C++ project but configurable to build any projects or dlls
+ Work based on https://github.com/xboxoneresearch/XboxUnattend C/C++ project but configurable to build any projects or dlls
  Template to create C/C++ project with visual studio in order to work in xbox dev mod (Retail with dev mod or devkit with dev mode activated) 
  See: https://wiki.xosft.dev/setup-dev-mode
 
@@ -29,7 +29,7 @@ Build with script:
 
 
 	
-## command line cmake -DTARGET_NAME=HelloWorld -S . -B build -G
+#### command line cmake -DTARGET_NAME=HelloWorld -S . -B build -G
 * DTARGET_NAME=<PROJECT_NAME> : create a variable CMake named TARGET_NAME with the value HelloWorld
 * S : indicates that the source files (and the CMakeLists.txt) are located in the current directory (.).
 * B build : Indicates that all generated files (Visual Studio solution, CMake cache, etc.) will be placed in the build directory.
