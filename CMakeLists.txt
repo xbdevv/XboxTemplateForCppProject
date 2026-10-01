@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.8)
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "" FORCE)
 #set(CMAKE_DEBUG_POSTFIX "d")
 
-# Nom du projet passé par un fichier externe ou la ligne de commande
+# Project name provided via an external file or the command line
 if(NOT DEFINED TARGET_NAME)
     set(TARGET_NAME "TemplateProject")	
 endif()
